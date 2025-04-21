@@ -23,6 +23,12 @@ public class CheckGuest {
             index++;
         }
 
+        // do the same thing with "for"
+        // boolean isOnGuestList = false
+        // for (index = 0; !isOnGuestList && index < guests.length ; index++) {
+        // if (guests[index].equalsIgnoreCase(userName)) {
+        // isOnGuestList = true;}}
+
         if (isOnGuestList == true) {
             System.out.println("Enjoy the party, " + userName + "!");
         } else {
